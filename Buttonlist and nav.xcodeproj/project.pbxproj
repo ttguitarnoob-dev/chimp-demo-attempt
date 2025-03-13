@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		1F9F92672D8341F500FBA85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9F924E2D8341F500FBA85D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9F92552D8341F500FBA85D;
+			remoteInfo = "Buttonlist and nav";
+		};
+		1F9F92712D8341F500FBA85D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9F924E2D8341F500FBA85D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9F92552D8341F500FBA85D;
+			remoteInfo = "Buttonlist and nav";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F9F92562D8341F500FBA85D /* Buttonlist and nav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Buttonlist and nav.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F92662D8341F500FBA85D /* Buttonlist and navTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buttonlist and navTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9F92702D8341F500FBA85D /* Buttonlist and navUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Buttonlist and navUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		1F9F92582D8341F500FBA85D /* Buttonlist and nav */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Buttonlist and nav";
+			sourceTree = "<group>";
+		};
+		1F9F92692D8341F500FBA85D /* Buttonlist and navTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Buttonlist and navTests";
+			sourceTree = "<group>";
+		};
+		1F9F92732D8341F500FBA85D /* Buttonlist and navUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Buttonlist and navUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F9F92532D8341F500FBA85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F92632D8341F500FBA85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F926D2D8341F500FBA85D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F9F924D2D8341F500FBA85D = {
+			isa = PBXGroup;
+			children = (
+				1F9F92582D8341F500FBA85D /* Buttonlist and nav */,
+				1F9F92692D8341F500FBA85D /* Buttonlist and navTests */,
+				1F9F92732D8341F500FBA85D /* Buttonlist and navUITests */,
+				1F9F92572D8341F500FBA85D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9F92572D8341F500FBA85D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9F92562D8341F500FBA85D /* Buttonlist and nav.app */,
+				1F9F92662D8341F500FBA85D /* Buttonlist and navTests.xctest */,
+				1F9F92702D8341F500FBA85D /* Buttonlist and navUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F9F92552D8341F500FBA85D /* Buttonlist and nav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F927A2D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and nav" */;
+			buildPhases = (
+				1F9F92522D8341F500FBA85D /* Sources */,
+				1F9F92532D8341F500FBA85D /* Frameworks */,
+				1F9F92542D8341F500FBA85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1F9F92582D8341F500FBA85D /* Buttonlist and nav */,
+			);
+			name = "Buttonlist and nav";
+			packageProductDependencies = (
+			);
+			productName = "Buttonlist and nav";
+			productReference = 1F9F92562D8341F500FBA85D /* Buttonlist and nav.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9F92652D8341F500FBA85D /* Buttonlist and navTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F927D2D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and navTests" */;
+			buildPhases = (
+				1F9F92622D8341F500FBA85D /* Sources */,
+				1F9F92632D8341F500FBA85D /* Frameworks */,
+				1F9F92642D8341F500FBA85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9F92682D8341F500FBA85D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F9F92692D8341F500FBA85D /* Buttonlist and navTests */,
+			);
+			name = "Buttonlist and navTests";
+			packageProductDependencies = (
+			);
+			productName = "Buttonlist and navTests";
+			productReference = 1F9F92662D8341F500FBA85D /* Buttonlist and navTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9F926F2D8341F500FBA85D /* Buttonlist and navUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9F92802D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and navUITests" */;
+			buildPhases = (
+				1F9F926C2D8341F500FBA85D /* Sources */,
+				1F9F926D2D8341F500FBA85D /* Frameworks */,
+				1F9F926E2D8341F500FBA85D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9F92722D8341F500FBA85D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				1F9F92732D8341F500FBA85D /* Buttonlist and navUITests */,
+			);
+			name = "Buttonlist and navUITests";
+			packageProductDependencies = (
+			);
+			productName = "Buttonlist and navUITests";
+			productReference = 1F9F92702D8341F500FBA85D /* Buttonlist and navUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9F924E2D8341F500FBA85D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					1F9F92552D8341F500FBA85D = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1F9F92652D8341F500FBA85D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1F9F92552D8341F500FBA85D;
+					};
+					1F9F926F2D8341F500FBA85D = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 1F9F92552D8341F500FBA85D;
+					};
+				};
+			};
+			buildConfigurationList = 1F9F92512D8341F500FBA85D /* Build configuration list for PBXProject "Buttonlist and nav" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9F924D2D8341F500FBA85D;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F9F92572D8341F500FBA85D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9F92552D8341F500FBA85D /* Buttonlist and nav */,
+				1F9F92652D8341F500FBA85D /* Buttonlist and navTests */,
+				1F9F926F2D8341F500FBA85D /* Buttonlist and navUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F9F92542D8341F500FBA85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F92642D8341F500FBA85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F926E2D8341F500FBA85D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F9F92522D8341F500FBA85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F92622D8341F500FBA85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9F926C2D8341F500FBA85D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F9F92682D8341F500FBA85D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9F92552D8341F500FBA85D /* Buttonlist and nav */;
+			targetProxy = 1F9F92672D8341F500FBA85D /* PBXContainerItemProxy */;
+		};
+		1F9F92722D8341F500FBA85D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9F92552D8341F500FBA85D /* Buttonlist and nav */;
+			targetProxy = 1F9F92712D8341F500FBA85D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F9F92782D8341F500FBA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F9F92792D8341F500FBA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9F927B2D8341F500FBA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttonlist and nav/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9F927C2D8341F500FBA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Buttonlist and nav/Preview Content\"";
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-nav";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1F9F927E2D8341F500FBA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-navTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buttonlist and nav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Buttonlist and nav";
+			};
+			name = Debug;
+		};
+		1F9F927F2D8341F500FBA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-navTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Buttonlist and nav.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Buttonlist and nav";
+			};
+			name = Release;
+		};
+		1F9F92812D8341F500FBA85D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-navUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Buttonlist and nav";
+			};
+			name = Debug;
+		};
+		1F9F92822D8341F500FBA85D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9S3UJBXY69;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.chimplanz.Buttonlist-and-navUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Buttonlist and nav";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F9F92512D8341F500FBA85D /* Build configuration list for PBXProject "Buttonlist and nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F92782D8341F500FBA85D /* Debug */,
+				1F9F92792D8341F500FBA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F927A2D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and nav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F927B2D8341F500FBA85D /* Debug */,
+				1F9F927C2D8341F500FBA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F927D2D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and navTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F927E2D8341F500FBA85D /* Debug */,
+				1F9F927F2D8341F500FBA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9F92802D8341F500FBA85D /* Build configuration list for PBXNativeTarget "Buttonlist and navUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9F92812D8341F500FBA85D /* Debug */,
+				1F9F92822D8341F500FBA85D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9F924E2D8341F500FBA85D /* Project object */;
+}
