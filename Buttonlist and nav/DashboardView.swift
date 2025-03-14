@@ -101,34 +101,7 @@ struct DashboardView: View {
         NavigationStack {
             ScrollView {
                 VStack(spacing: 24) {
-                    // Section: My Collections
-                    VStack(alignment: .leading, spacing: 12) {
-                        Text("My Collections")
-                            .font(.title2)
-                            .fontWeight(.semibold)
-                            .padding(.leading)
-
-                        HStack {
-                            NavigationLink(destination: PeopleEditView()) {
-                                Text("People")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.green)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(8)
-                            }
-
-                            NavigationLink(destination: SongsEditView()) {
-                                Text("Songs")
-                                    .padding()
-                                    .frame(maxWidth: .infinity)
-                                    .background(Color.blue)
-                                    .foregroundColor(.white)
-                                    .cornerRadius(8)
-                            }
-                        }
-                        .padding(.horizontal)
-                    }
+                    
 
                     // Section: My Events
                     VStack(alignment: .leading, spacing: 12) {
@@ -149,10 +122,41 @@ struct DashboardView: View {
                             .padding(.horizontal)
                         }
                     }
+                    // Section: My Collections
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("My Collections")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .padding(.leading)
+                        
+                        HStack {
+                            NavigationLink(destination: PeopleEditView()) {
+                                Text("People")
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color.green)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(8)
+                            }
+                            
+                            
+                            
+                            NavigationLink(destination: SongsEditView()) {
+                                Text("Songs")
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(8)
+                            }
+                        }
+                        .padding(.horizontal)
+                    }
                 }
                 .padding(.top)
             }
             .navigationTitle("My Dashboard")
+            
         }
     }
 }
