@@ -99,37 +99,60 @@ let events: [Event] = [
 struct DashboardView: View {
     var body: some View {
         NavigationStack {
-            ScrollView  {
-                VStack(spacing: 12) {
-                    ForEach(events) { event in
-                        NavigationLink( destination: EventDetailView(event: event)  ) {
-                            Text(event.title)
-                                .padding()
-                                .frame(maxWidth: .infinity)
-                                .background(Color.blue)
-                                .foregroundColor(.white)
-                                .cornerRadius(8)
-                                .padding(.bottom, 10)
-                                .font(.headline)
-                            
+            ScrollView {
+                VStack(spacing: 24) {
+                    // Section: My Collections
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("My Collections")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .padding(.leading)
+
+                        HStack {
+                            NavigationLink(destination: PeopleEditView()) {
+                                Text("People")
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color.green)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(8)
+                            }
+
+                            NavigationLink(destination: SongsEditView()) {
+                                Text("Songs")
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(8)
+                            }
                         }
-                        .padding(.horizontal, 20)
+                        .padding(.horizontal)
                     }
-                    .navigationTitle(Text("My Events"))
+
+                    // Section: My Events
+                    VStack(alignment: .leading, spacing: 12) {
+                        Text("My Events")
+                            .font(.title2)
+                            .fontWeight(.semibold)
+                            .padding(.leading)
+
+                        ForEach(events) { event in
+                            NavigationLink(destination: EventDetailView(event: event)) {
+                                Text(event.title)
+                                    .padding()
+                                    .frame(maxWidth: .infinity)
+                                    .background(Color.blue)
+                                    .foregroundColor(.white)
+                                    .cornerRadius(8)
+                            }
+                            .padding(.horizontal)
+                        }
+                    }
                 }
-                
+                .padding(.top)
             }
-            
+            .navigationTitle("My Dashboard")
         }
-//        ScrollView {
-//            VStack(alignment: .leading, spacing: 12) {
-//                NavigationStack {
-//                    ForEach(events) { event in
-//                        NavigationLink(event.title, destination: EventDetailView(event: event)  )
-//                    }
-//                    .navigationTitle(Text("Events"))    
-//                }
-//            }
-//        }
     }
 }
