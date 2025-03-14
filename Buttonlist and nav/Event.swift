@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+
+struct Event: Identifiable {
+    let id: Int
+    let title: String
+    let date: String
+    let time: String
+    let teamMembers: [TeamMember]
+    let schedule: [ScheduleItem]
+}

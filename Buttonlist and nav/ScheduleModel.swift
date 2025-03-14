@@ -6,3 +6,8 @@
 //
 
 import Foundation
+struct ScheduleItem: Identifiable {
+    let id = UUID()
+    let time: String
+    let description: String
+}

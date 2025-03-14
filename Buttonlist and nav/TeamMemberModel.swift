@@ -6,3 +6,8 @@
 //
 
 import Foundation
+struct TeamMember: Identifiable {
+    let id = UUID()
+    let name: String
+    let role: String
+}
